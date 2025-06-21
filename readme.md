@@ -19,7 +19,7 @@ An **Intelligent Crop Monitoring System** uses IoT sensor data and automated dat
 * **Hardware (Optional):** IoT devices such as Arduino or Raspberry Pi can host the system. For example, a Raspberry Pi running Linux can collect sensor data and execute the Python scripts.  Typical sensors might include DHT11/DHT22 (temp/humidity), soil moisture probes, light sensors, etc.
 * **Database:** A relational database (SQLite or MySQL) to store time-series sensor data.
 * **Cloud/IoT Platform:** The system could be extended to use an IoT cloud platform (e.g. ThingSpeak, AWS IoT) for data collection and alerts, though the current code uses local storage.
-* **Data Visualization:** Power BI (as noted by the author) or similar tools to build dashboards and reports from the processed data.
+* **Data Visualization:** Power BI or similar tools to build dashboards and reports from the processed data.
 * **Operating System:** Any OS that supports Python (Linux, Windows, or macOS). For embedded deployment, Raspberry Pi OS or Arduino-like environments are suitable.
 
 ## Installation & Setup Instructions
@@ -91,7 +91,7 @@ An **Intelligent Crop Monitoring System** uses IoT sensor data and automated dat
 
 ## License
 
-This project currently has **no license file**. If you plan to reuse or distribute the code, it is recommended to include an open-source license. A common choice is the [MIT License](https://opensource.org/licenses/MIT), which permits broad reuse with attribution.
+This project currently has **no license file**. 
 
 ## Contributing
 
