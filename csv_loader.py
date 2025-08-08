@@ -6,11 +6,11 @@ def load_csv_to_postgres(csv_path):
 
     # ✅ PostgreSQL connection setup for Supabase
     conn = psycopg2.connect(
-        host="db.ohoxmyshkdvctgilxdca.supabase.co",
-        port="5432",
+        host="SUPABASE-LINK",
+        port="YOUR-PORT-NO",
         database="postgres",
-        user="postgres",
-        password="759243168",  # 🔐 Consider using environment variables
+        user="POSTGRES-NAME",
+        password="POSTGRES-PASSWORD",  # 🔐 Consider using environment variables
         sslmode="require"      # ✅ Required for Supabase
     )
 
@@ -52,5 +52,6 @@ def load_csv_to_postgres(csv_path):
     conn.commit()
     cur.close()
     conn.close()
+
 
     print("✅ Data inserted successfully into PostgreSQL.")
